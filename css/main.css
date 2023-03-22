@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    width: 30px;
+    height: 100vh;
+    background-color: black;
+}
+
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.box-upgrade{
+    height: 50px;
+    color: gray;
+}
+
