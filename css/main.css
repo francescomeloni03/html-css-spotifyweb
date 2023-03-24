@@ -81,7 +81,7 @@ header{
     width: 450px;
     background-color: #141922;
     overflow: scroll;
-    width: calc(100vh - 30px);
+    width: 100%;
     
 }
 .link{
@@ -114,13 +114,14 @@ header{
 }
 
 .box-music-1{
-    width: 46%;
+    width: calc(100% / 2);
     height: 315px;
+
     
 }
 
 .box-music-1 img{
-    height: 205px;
+    width: 90%;
 }
 
 .box-music-1 h3{
@@ -163,21 +164,11 @@ header{
 
 
 
-
-
-
-
-
-
-
-
-
-
 footer{
     background-color: #282828;
     height: 70px;
     display: flex;
-    width: 100vh;
+    width: 100%;
 }
 
 .box-footer{
@@ -195,7 +186,7 @@ footer{
 .box-footer h5{
     color: white;
 }
-.box-footer h6{
+.footer-s h6{
     color: gray;
 }
 
@@ -241,4 +232,290 @@ footer{
     align-items: center;
     color: white;
     font-size: 15px;
+}
+
+.responsive{
+    display: none;
+}
+
+.footer-responsive{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (min-width: 480px) and (max-width:767px) {
+
+
+/* Header */
+
+   header{
+    width: 200px;
+   }
+   .container-1{
+    width: 200px;
+   }
+   .box-upgrade{
+    width: calc(100% - 200px);
+   }
+   .loghi-sup{
+    align-items: baseline;
+    padding-left: 10px;
+   }
+   .loghi-inf{
+    align-items: baseline;
+    padding-left: 10px;
+   }
+   .font-spotify{
+    font-size: 35px;
+   }
+
+   .vertical-ali{
+    vertical-align: super;
+   }
+
+   .responsive{
+    display: inline-block;
+   }
+
+   .font{
+    font-size: 13px;
+   }
+
+   .color{
+    color: gray;
+   }
+
+
+   .button{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+   }
+
+   .margin-playlist{
+    margin-top: 10px;
+   }
+
+   .loghi-inf hr{
+    width: 90%;
+   }
+
+  
+/* Main */
+.link a{
+    width: calc(100% / 3);
+}
+
+.box-music-1{
+    text-align: center;
+    width: calc(100% / 2);
+}
+
+.box-music-1 img{
+    width: 90%;
+    height: auto;
+
+}
+    
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    header{
+        width: 200px;
+       }
+       .container-1{
+        width: 200px;
+       }
+       .box-upgrade{
+        width: calc(100% - 200px);
+       }
+       .loghi-sup{
+        align-items: baseline;
+        padding-left: 10px;
+       }
+       .loghi-inf{
+        align-items: baseline;
+        padding-left: 10px;
+       }
+       .font-spotify{
+        font-size: 35px;
+       }
+    
+       .vertical-ali{
+        vertical-align: super;
+       }
+    
+       .responsive{
+        display: inline-block;
+       }
+    
+       .font{
+        font-size: 13px;
+       }
+    
+       .color{
+        color: gray;
+       }
+    
+    
+       .button{
+        margin-top: 5px;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        border: none;
+       }
+    
+       .margin-playlist{
+        margin-top: 10px;
+       }
+    
+       .loghi-inf hr{
+        width: 90%;
+       }
+
+
+
+       /* Main */
+
+       .link a{
+        width: 20%;
+       }
+
+
+       .box-music-1{
+        width: calc(100% / 4);
+       }
+
+       .flex-container-musica{
+        text-align: center;
+        justify-content: flex-start;
+       }
+
+
+       /* Footer */
+       .footer-s h6{
+        display: none;
+       }
+
+       .footer-responsive{
+        display: inline-block;
+        color: grey;
+       }
+
+
+       .footer-responsive-2{
+        display: flex;
+        width: 50px;
+        justify-content: space-between;
+       }
+
+
+    
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px)  {
+
+    /* Footer */
+
+
+
+    header{
+        width: 200px;
+       }
+       .container-1{
+        width: 200px;
+       }
+       .box-upgrade{
+        width: calc(100% - 200px);
+       }
+       .loghi-sup{
+        align-items: baseline;
+        padding-left: 10px;
+       }
+       .loghi-inf{
+        align-items: baseline;
+        padding-left: 10px;
+       }
+       .font-spotify{
+        font-size: 35px;
+       }
+    
+       .vertical-ali{
+        vertical-align: super;
+       }
+    
+       .responsive{
+        display: inline-block;
+       }
+    
+       .font{
+        font-size: 13px;
+       }
+    
+       .color{
+        color: gray;
+       }
+    
+    
+       .button{
+        margin-top: 5px;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        border: none;
+       }
+    
+       .margin-playlist{
+        margin-top: 10px;
+       }
+    
+       .loghi-inf hr{
+        width: 90%;
+       }
+
+
+
+       /* Main */
+
+
+
+       .link a{
+        width: 11%;
+       }
+
+
+       .box-music-1{
+        width: calc(100% / 6);
+       }
+
+       .flex-container-musica{
+        text-align: center;
+        justify-content: flex-start;
+        height: 250px;
+       }
+
+
+
+
+
+    
 }
