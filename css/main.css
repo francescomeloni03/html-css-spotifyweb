@@ -25,6 +25,7 @@ header{
     height: calc(100vh - 70px);
     color: white;
     width: 30px;
+    overflow: scroll;
 }
 
 
@@ -169,6 +170,7 @@ footer{
     height: 70px;
     display: flex;
     width: 100%;
+    position: fixed;
 }
 
 .box-footer{
