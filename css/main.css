@@ -4,19 +4,15 @@
     padding: 0;
 }
 
+/* Header */
 
 header{
     width: 30px;
-    background-color: black;
-    
+    background-color: black; 
 }
-
-
-
 .header-main{
     display: flex;
     height: calc(100vh - 70px);
-
 }
 .container-1{
     display: flex;
@@ -27,27 +23,28 @@ header{
     width: 30px;
     overflow: scroll;
 }
-
-
 .loghi-sup{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .loghi-sup i{
     padding-top: 10px;
 }
-
 .loghi-inf{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .loghi-inf i{
     padding-bottom: 10px;
 }
+
+
+
+
+
+/* Main */
 
 .box-upgrade{
     height: 70px;
@@ -55,17 +52,13 @@ header{
     width: calc(100% - 30px);
     position: fixed;
 }
-
 .container-button{
     display: flex;
-    /* padding-top: 25px; */
     justify-content: flex-end;
     padding-right: 10px;
     height: 100%;
     align-items: center;
 }
-
-
 .container-button button{
     height: 33px;
     width: 170px;
@@ -74,8 +67,6 @@ header{
     color: white;
     border: 2px solid white;
 }
-
-
 .box-musica{
     padding-top: 70px;
     height: calc(100vh - 70px);
@@ -83,14 +74,12 @@ header{
     background-color: #141922;
     overflow: scroll;
     width: 100%;
-    
 }
 .link{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .link a{
     font-size: 13px;
     width: 25%;
@@ -99,58 +88,43 @@ header{
     text-decoration: none;
     color: gray;
 }
-
 .box-musica h2{
     padding-top: 30px;
     padding-bottom: 20px;
     padding-left: 10px;
     color: white;
 }
-
-
 .flex-container-musica{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 .box-music-1{
     width: calc(100% / 2);
-    height: 315px;
-
-    
+    height: 315px; 
 }
-
 .box-music-1 img{
     width: 90%;
 }
-
 .box-music-1 h3{
     text-align: center;
     font-size: initial;
     color: white;
     padding-top: 10px;
 }
-
-
 .box-music-1 h5{
     text-align: center;
     color: gray;
 }
-
 .box-musica h5{
     padding-left: 10px;
     color: gray;
     padding-bottom: 20px;
 }
-
-
 .box-music-2 img{
     height: 205px;
     border-radius: 110px;
 }
-
-
 .box-music-2 h3{
     text-align: center;
     font-size: initial;
@@ -163,6 +137,7 @@ header{
 
 
 
+/* Footer */
 
 
 footer{
@@ -172,7 +147,6 @@ footer{
     width: 100%;
     position: fixed;
 }
-
 .box-footer{
     width: calc(100% / 3);
     height: 70px;
@@ -180,18 +154,15 @@ footer{
     justify-content: space-evenly;
     align-items: center;
 }
-
 .box-footer img{
     height: 30px;
 }
-
 .box-footer h5{
     color: white;
 }
 .footer-s h6{
     color: gray;
 }
-
 .box-footer i{
     font-size: 15px;
     color: gray;
@@ -199,8 +170,6 @@ footer{
 .box-footer-2{
     width: calc(100% / 3);
 }
-
-
 .box-footer-2-interno{
     width: 100%;
     height: 35px;
@@ -209,23 +178,18 @@ footer{
     align-items: center;
     color: white;
 }
-
 .barra-volume{
     width: 50%;
     height: 3px;
     background-color: grey;
     border-radius: 5px;
 }
-
-
 .barra-volume-min{
     background-color: white;
     width: 30%;
     border-radius: 5px;
     height: 3px;
 }
-
-
 .box-footer-3{
     width: calc(100% / 3);
     height: 70px;
@@ -235,11 +199,9 @@ footer{
     color: white;
     font-size: 15px;
 }
-
 .responsive{
     display: none;
 }
-
 .footer-responsive{
     display: none;
 }
@@ -317,6 +279,9 @@ footer{
 
   
 /* Main */
+
+
+
 .link a{
     width: calc(100% / 3);
 }
@@ -338,6 +303,9 @@ footer{
 
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
+/* Header */
+
     header{
         width: 200px;
        }
@@ -412,6 +380,9 @@ footer{
 
 
        /* Footer */
+
+
+
        .footer-s h6{
         display: none;
        }
@@ -436,7 +407,7 @@ footer{
 
 @media screen and (min-width: 992px) and (max-width: 1200px)  {
 
-    /* Footer */
+    /* Header */
 
 
 
@@ -514,10 +485,50 @@ footer{
         justify-content: flex-start;
         height: 250px;
        }
+}
 
 
 
 
 
-    
+
+/* Hover */
+
+
+.container-button button:hover{
+    width: 190px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+
+.link a:hover{
+    color: white;
+}
+
+
+.hover-header:hover{
+    color: white;
+}
+
+
+
+.hover-footer:hover{
+    color: white;
+}
+
+
+.hover-size-footer:hover{
+    font-size: 20px;
+}
+
+
+.barra-volume:hover .barra-volume-min{
+    background-color: greenyellow;
+}
+
+
+.box-music-1:hover img{
+    opacity: 0.4;
 }
